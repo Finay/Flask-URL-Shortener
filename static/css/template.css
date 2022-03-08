@@ -1,0 +1,12 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: aliceblue;
+}
+
+#name-input {
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+}

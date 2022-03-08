@@ -1,0 +1,12 @@
+{% extends "template.html" %}
+{% block content %}
+  <form action="/" method="POST">
+     <div class="input-group mb-3 input-group-lg" id="name-input" style="height: 120px">
+       <span class="input-group-text" id="basic-addon1 inputGroup-sizing-lg">http://</span>
+       <input class="form-control" type="text" name="url" aria-describedby="basic-addon1" placeholder="URL to shorten"/>
+       <span class="input-group-text" id="basic-addon2 inputGroup-sizing-lg">{{ appip }}/</span>
+       <input class="form-control" type="text" name="pref" aria-describedby="basic-addon1" placeholder="Leave blank for random"/>
+       <input class="btn btn-success" id="button-addon2" type="submit" value="Shorten"/>
+     </div>
+  </form>
+{% endblock %}

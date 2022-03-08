@@ -1,0 +1,7 @@
+{% extends "template.html" %}
+{% block content %}
+    <div class="alert alert-success" role="alert">
+        Your shortened URL: <a href="{{ shorturl }}" class="alert-link" style="line-height: 34px">{{ shorturl }}</a>
+        <a class="btn btn-primary" href="/" role="button" style="float: right">Return</a>
+    </div>
+{% endblock %}
