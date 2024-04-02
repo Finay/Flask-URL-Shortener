@@ -1,5 +1,6 @@
 # Flask-URL-Shortener
-My own url shortener using flask :)
+A URL shortener webapp built with flask and sqlite in Python.
+A 10th grade personal project submission. 
 
 Dependencies:
 - flask
